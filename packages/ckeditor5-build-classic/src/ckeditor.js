@@ -15,6 +15,7 @@ import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -46,6 +47,7 @@ ClassicEditor.builtinPlugins = [
 	CloudServices,
 	EasyImage,
 	Heading,
+	HorizontalLine,
 	Image,
 	ImageCaption,
 	ImageStyle,
@@ -82,6 +84,7 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
+			'horizontalLine',
 			'undo',
 			'redo'
 		]
