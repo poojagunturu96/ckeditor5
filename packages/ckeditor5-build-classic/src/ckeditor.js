@@ -32,6 +32,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import Markdown from '@ckeditor/ckeditor5-markdown-gfm/src/markdown';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -48,6 +49,7 @@ ClassicEditor.builtinPlugins = [
 	EasyImage,
 	Heading,
 	HorizontalLine,
+	HtmlEmbed,
 	Image,
 	ImageCaption,
 	ImageStyle,
@@ -85,6 +87,7 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'horizontalLine',
+			'htmlEmbed',
 			'undo',
 			'redo'
 		]
